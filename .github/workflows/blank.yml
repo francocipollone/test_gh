@@ -40,4 +40,14 @@ jobs:
           echo test, and deploy your project.
           env
 
+      - name: env
+        shell: bash
+        run: |
+          env
+      - name: env
+        shell: bash
+        run: |
+          env | grep MY_ENV_VAR
+          
+
       
